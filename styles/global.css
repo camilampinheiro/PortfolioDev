@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --bg-color: #16181D;
+
+    --title-lg-ap: 600 56px/120% "Asap", serif;
+    --title-md-ap: 600 24px/120% "Asap", serif;
+    --title-sm-ap: 600 16px/120% "Asap", serif;
+
+    --subtitle: 20px/120% "Inconsolata", serif;
+
+    --text-md-mp: 16px/140% "Maven Pro", serif;
+    --text-sm-mp: 14px/140% "Maven Pro", serif;
+}
+
+body {
+    color: var(--gray-600);
+    background-color: var(--bg-color);
+}
+
+#intro {
+    background-image: url(../assets/image/Background_Intro.png);
+    background-size: cover;
+
+}
+
