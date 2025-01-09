@@ -20,14 +20,14 @@
 
     --bg-color: #16181D;
 
-    --title-lg-ap: 600 56px/120% "Asap", serif;
-    --title-md-ap: 600 24px/120% "Asap", serif;
-    --title-sm-ap: 600 16px/120% "Asap", serif;
+    --title-lg: 600 56px/120% "Asap", serif;
+    --title-md: 600 24px/120% "Asap", serif;
+    --title-sm: 600 16px/120% "Asap", serif;
 
     --subtitle: 20px/120% "Inconsolata", serif;
 
-    --text-md-mp: 16px/140% "Maven Pro", serif;
-    --text-sm-mp: 14px/140% "Maven Pro", serif;
+    --text-md: 16px/140% "Maven Pro", serif;
+    --text-sm: 14px/140% "Maven Pro", serif;
 }
 
 body {
@@ -35,9 +35,108 @@ body {
     background-color: var(--bg-color);
 }
 
-#intro {
+.container-primary {
     background-image: url(../assets/image/Background_Intro.png);
     background-size: cover;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+#info {
+    width: 1040px;
+    margin: 56px auto;
+}
+
+#imgPerfil img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font: var(--title-lg);
+    margin-block: 8px 20px  ;
+}
+
+#text {
+    p:nth-child(3) {
+        color: var(--gray-400);
+    }
+}
+
+.subtitle {
+    margin-top: 56px;
+}
+
+.languages {
+    background-color: var(--gray-300);
+    display: flex;
+    margin-top: 80px;
+    font: var(--text-md);
+    color: var(--gray-500);
+    border-radius: 999px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+}
+
+#tools {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+
+    width: 1040px;
+    margin: 72px auto 144px;
+}
+
+header:nth-child(1){
+    margin-bottom: 8px;
+}
+
+#container-secondary {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    gap: 24px;
+}
+
+.project-card {
+    background-color: var(--gray-300);
+    border-radius: 12px;
+
+    img {
+        width: 306px;
+        border-radius: 8px;
+        margin: 12px 12px 0 12px;
+    }
+
+    figcaption {
+        text-align: left;
+        padding: 12px;
+        strong {
+            margin-bottom: 8px;
+            font: var(--title-sm);
+            color: var(--gray-600);
+        }
+
+        p {
+            color: var(--gray-500);
+        }
+    }
+}
+
+.contact {
+    width: 420px;
+}
+
 

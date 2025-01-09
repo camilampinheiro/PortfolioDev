@@ -1,7 +1,19 @@
-.grid {
-    display: grid;
+.text-sm {
+    font: var(--text-sm);
 }
 
-.grid-flow-col {
-    grid-auto-flow: column;
+.title-md {
+    font: var(--title-md);
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.red {
+    color: var(--red);
+}
+
+.purple {
+    color: var(--purple);
 }
