@@ -113,7 +113,8 @@ header:nth-child(1){
 .project-card {
     background-color: var(--gray-300);
     border-radius: 12px;
-
+    border: 1.5px solid var(--gray-300);
+    
     img {
         width: 306px;
         border-radius: 8px;
@@ -135,8 +136,75 @@ header:nth-child(1){
     }
 }
 
-.contact {
-    width: 420px;
+.project-card:hover {
+    border: 1.5px solid var(--gray-400);
 }
+
+.container-tertiary {
+    background-image: url(../assets/image/Background_Contacts.png);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#header-contact {
+    margin-bottom: 48px;
+    p:nth-child(3) {
+        color: var(--gray-500);
+    }
+}
+
+#contact {
+    width: 420px;
+    margin: 128px auto 200px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+
+    color: var(--gray-500);
+    font: 600 16px/140% "Maven Pro", serif;
+
+    .link-btn {
+        background-color: var(--gray-300);
+        width: 400px;
+        border-radius: 8px;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        padding: 23px 20px;
+
+        border: 1.5px solid var(--gray-300);
+    }
+
+    .link-btn:hover {
+        border: 1.5px solid var(--blue);
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        margin-left: 12px;
+        padding: 3px;
+    }
+
+    span {
+        background-image: url(../assets/icons/ArrowUpRight.svg);
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 23px;
+    }
+}
+
+
 
 

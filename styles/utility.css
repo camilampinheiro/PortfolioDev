@@ -2,6 +2,10 @@
     font: var(--text-sm);
 }
 
+.text-md {
+    font: var(--text-md);
+}
+
 .title-md {
     font: var(--title-md);
 }
