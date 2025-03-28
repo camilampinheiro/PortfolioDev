@@ -20,14 +20,14 @@
 
     --bg-color: #16181D;
 
-    --title-lg: 600 56px/120% "Asap", serif;
-    --title-md: 600 24px/120% "Asap", serif;
-    --title-sm: 600 16px/120% "Asap", serif;
+    --title-lg: 600 3.5rem/1.2 "Asap", serif;
+    --title-md: 600 1.5rem/1.2 "Asap", serif;
+    --title-sm: 600 1rem/1.2 "Asap", serif;
 
-    --subtitle: 20px/120% "Inconsolata", serif;
+    --subtitle: 1.25rem/1.2  "Inconsolata", serif;
 
-    --text-md: 16px/140% "Maven Pro", serif;
-    --text-sm: 14px/140% "Maven Pro", serif;
+    --text-md: 1rem/1.4 "Maven Pro", serif;
+    --text-sm: .875rem/1.4 "Maven Pro", serif;
 }
 
 body {
@@ -46,20 +46,20 @@ body {
 }
 
 #info {
-    width: 1040px;
-    margin: 56px auto;
+    width: 65rem;
+    margin: 3.5rem auto;
 }
 
 #imgPerfil img {
-    width: 96px;
-    height: 96px;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
 h1 {
     font: var(--title-lg);
-    margin-block: 8px 20px  ;
+    margin-block: .5rem 1.25rem;
 }
 
 #text {
@@ -69,24 +69,24 @@ h1 {
 }
 
 .subtitle {
-    margin-top: 56px;
+    margin-top: 3.5rem;
 }
 
 .languages {
     background-color: var(--gray-300);
     display: flex;
-    margin-top: 80px;
+    margin-top: 5rem;
     font: var(--text-md);
     color: var(--gray-500);
-    border-radius: 999px;
-    padding: 8px 16px;
+    border-radius: 65rem;
+    padding: .5rem 1rem;
     align-items: center;
-    gap: 8px;
+    gap: .5rem;
 }
 
 #tools {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -94,20 +94,20 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 40px;
+    gap: 2.5rem;
 
-    width: 1040px;
-    margin: 72px auto 144px;
+    width: 65rem;
+    margin: 4.5rem auto 9rem;
 }
 
 header:nth-child(1){
-    margin-bottom: 8px;
+    margin-bottom: .5rem;
 }
 
 #container-secondary {
     display: grid;
-    grid-template-columns: repeat(3, 330px);
-    gap: 24px;
+    grid-template-columns: repeat(3, 20.625rem);
+    gap: 1.5rem;
 
     a {
         text-decoration: none;
@@ -117,20 +117,20 @@ header:nth-child(1){
 
 .project-card {
     background-color: var(--gray-300);
-    border-radius: 12px;
+    border-radius: .75rem;
     border: 1.5px solid var(--gray-300);
 
     img {
-        width: 306px;
-        border-radius: 8px;
-        margin: 12px 12px 0 12px;
+        width: 19.125rem;
+        border-radius: .5rem;
+        margin: .75rem .75rem 0 .75rem;
     }
 
     figcaption {
         text-align: left;
-        padding: 12px;
+        padding: .75rem;
         strong {
-            margin-bottom: 8px;
+            margin-bottom: .5rem;
             font: var(--title-sm);
             color: var(--gray-600);
         }
@@ -155,15 +155,15 @@ header:nth-child(1){
 }
 
 #header-contact {
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
     p:nth-child(3) {
         color: var(--gray-500);
     }
 }
 
 #contact {
-    width: 420px;
-    margin: 128px auto 200px;
+    width: 26.25rem;
+    margin: 8rem auto 12.5rem;
 }
 
 #links {
@@ -171,20 +171,20 @@ header:nth-child(1){
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
     position: relative;
 
     color: var(--gray-500);
-    font: 600 16px/140% "Maven Pro", serif;
+    font: 600 1rem/140% "Maven Pro", serif;
 
     .link-btn {
         background-color: var(--gray-300);
-        width: 400px;
-        border-radius: 8px;
-        height: 68px;
+        width: 25rem;
+        border-radius: .5rem;
+        height: 4.25rem;
         display: flex;
         align-items: center;
-        padding: 23px 20px;
+        padding: 1.4375rem 1.25rem;
 
         border: 1.5px solid var(--gray-300);
     }
@@ -196,17 +196,17 @@ header:nth-child(1){
     a {
         text-decoration: none;
         color: inherit;
-        margin-left: 12px;
+        margin-left: .75rem;
         padding: 3px;
     }
 
     span {
         background-image: url(../assets/icons/ArrowUpRight.svg);
         background-size: cover;
-        width: 20px;
-        height: 20px;
+        width: 1.25rem;
+        height: 1.25rem;
         position: absolute;
-        right: 23px;
+        right: 1.5rem;
     }
 }
 
